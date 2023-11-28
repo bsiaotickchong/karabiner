@@ -136,6 +136,30 @@
       ]
     },
     {
+      "description": "Shift + international1 ➡️ floating notes",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "international1",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_down",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "pause ➡️ play_or_pause",
       "manipulators": [
         {
