@@ -102,6 +102,57 @@
           ]
         }
       ]
+    },
+    {
+      "description": "yen ➡️ emoji",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "international3"
+          },
+          "to": [
+            {
+              "key_code": "comma",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "pause ➡️ play_or_pause",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "pause"
+          },
+          "to": [
+            {
+              "key_code": "play_or_pause"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "eject ➡️ fastforward",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "eject"
+          },
+          "to": [
+            {
+              "key_code": "fastforward"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
