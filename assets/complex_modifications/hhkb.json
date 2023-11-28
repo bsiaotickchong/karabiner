@@ -2,7 +2,7 @@
   "title": "HHKB-related mappings",
   "rules": [
     {
-      "description": "Eisuu ↦ '",
+      "description": "Eisuu ↦ backspace",
       "manipulators": [
         {
           "type": "basic",
@@ -11,17 +11,14 @@
           },
           "to": [
             {
-              "key_code": "7",
-              "modifiers": [
-                "shift"
-              ]
+              "key_code": "delete_or_backspace"
             }
           ]
         }
       ]
     },
     {
-      "description": "Kana ↦ \"",
+      "description": "Kana ↦ return_or_enter",
       "manipulators": [
         {
           "type": "basic",
@@ -30,17 +27,14 @@
           },
           "to": [
             {
-              "key_code": "2",
-              "modifiers": [
-                "shift"
-              ]
+              "key_code": "return_or_enter"
             }
           ]
         }
       ]
     },
     {
-      "description": "Shift + Eisuu ↦ <",
+      "description": "Shift + Eisuu ↦ option + backspace",
       "manipulators": [
         {
           "type": "basic",
@@ -54,9 +48,9 @@
           },
           "to": [
             {
-              "key_code": "comma",
+              "key_code": "delete_or_backspace",
               "modifiers": [
-                "shift"
+                "left_option"
               ]
             }
           ]
@@ -64,7 +58,7 @@
       ]
     },
     {
-      "description": "Shift + Kana ↦ >",
+      "description": "Shift + Kana ↦ Shift + return_or_enter",
       "manipulators": [
         {
           "type": "basic",
@@ -78,7 +72,7 @@
           },
           "to": [
             {
-              "key_code": "period",
+              "key_code": "return_or_enter",
               "modifiers": [
                 "shift"
               ]
@@ -114,6 +108,25 @@
           "to": [
             {
               "key_code": "comma",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "international1 ➡️ search arc",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "international1"
+          },
+          "to": [
+            {
+              "key_code": "page_up",
               "modifiers": [
                 "left_control"
               ]
