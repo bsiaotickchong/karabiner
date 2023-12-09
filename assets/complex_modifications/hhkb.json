@@ -98,31 +98,12 @@
       ]
     },
     {
-      "description": "yen ➡️ emoji",
+      "description": "yen ➡️ search arc",
       "manipulators": [
         {
           "type": "basic",
           "from": {
             "key_code": "international3"
-          },
-          "to": [
-            {
-              "key_code": "comma",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "international1 ➡️ search arc",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "international1"
           },
           "to": [
             {
@@ -136,7 +117,23 @@
       ]
     },
     {
-      "description": "Shift + international1 ➡️ floating notes",
+      "description": "international1 ➡️ backtick",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "international1"
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Shift + international1 ➡️ tilde",
       "manipulators": [
         {
           "type": "basic",
@@ -150,9 +147,9 @@
           },
           "to": [
             {
-              "key_code": "page_down",
+              "key_code": "grave_accent_and_tilde",
               "modifiers": [
-                "left_control"
+                "shift"
               ]
             }
           ]
